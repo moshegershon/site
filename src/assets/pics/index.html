@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>xda.co.il</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src='node_modules/jquery/dist/jquery.min.js'></script>
+    <script>
+
+        // $(document).ready(function () {
+        //     //     $("#CompanyName").fadeIn(2000);
+        //     //     $("#text").fadeIn(4000);
+        //     //     $('#HomeContent').fadeIn(4100);
+
+
+        //     $("#PicEmployee1").hover(function () {
+        //         $("#PicEmployee1").fadeOut("slow");
+        //         // $("#dani").show();
+        //     },
+        //         function () {
+        //             $("#PicEmployee1").fadeIn("slow");
+        //             // $("#dani").hide();
+        //         });
+
+
+        //     $("#PicEmployee2").hover(function () {
+        //         $("#PicEmployee2").fadeOut("slow");
+        //         // $("#moshe").show();
+
+        //     },
+        //         function () {
+        //             $("#PicEmployee2").fadeIn("slow");
+        //             // $("#moshe").hide();
+        //         });
+
+
+        //     $("#PicEmployee3").hover(function () {
+        //         $("#PicEmployee3").fadeOut("slow");
+        //         // $("#hanoh").show();
+        //     },
+        //         function () {
+        //             $("#PicEmployee3").fadeIn("slow");
+        //             // $("#hanoh").hide();
+        //         });
+        // });
+        $(document).ready(function () {
+            $(window).scroll(function () {
+                if ($(document).scrollTop() > 1) { // check if user scrolled more than 50 from top of the browser window
+                    $("#navbar").css("background-color", "white"); // if yes, then change the color of class "navbar-fixed-top" to white (#f8f8f8)
+                    $(".nav-link").css("color", "black");
+                } else {
+                    $("#navbar").css("background-color", "transparent"); // if not, change it back to transparent
+                    $(".nav-link").css("color", "white");
+                }
+            });
+        });
+//     var myNav = document.getElementById('navbar');
+// window.onscroll = function () { 
+//     "use strict";
+//     if (document.body.scrollTop >= 10 ) {
+//         console.log(11)
+//         myNav.addClass("nav-colored");
+//         myNav.removeClass("nav-transparent");
+//     } 
+//     else {
+//         myNav.addClass("nav-transparent");
+//         myNav.removeClass("nav-colored");
+//     }
+// };
+    </script>
+</head>
+
+
+<body>
+    <!-- style="background-color: #f3f9fe" -->
+    <header>
+        <nav class="navbar navbar-expand-lg " id="navbar">
+            <!-- <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span> -->
+            <!-- </button> -->
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <!-- <a class="navbar-brand" href="#">בית</a> -->
+                <ul class="navbar-nav">
+                    <li class="nav-item ">
+                        <a class="nav-link" href="index.html">בית</a>
+                        <!-- <span class="sr-only">(current)</span> -->
+                        </a>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link" href="process.html">תהליך
+                            <!-- <span class="sr-only">(current)</span> -->
+                        </a>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link" href="about.html">אודות
+                            <!-- <span class="sr-only">(current)</span> -->
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">הצוות שלנו</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">צור קשר</a>
+                    </li>
+                </ul>
+            </div>
+            <div>
+                <a href="index.html">
+                    <span>
+                        <img src="Logo2.png" id="logo">
+                        </img>
+                    </span>
+                </a>
+            </div>
+        </nav>
+    </header>
+
+    <video src="Street.mp4" autoplay loop id="OpeningVideo"></video>
+
+
+    <h1 id="TextOnVideo1">המקום לבניית,עיצוב וקידום האתר שלכם,</h1>
+    <h2 id="TextOnVideo2">בואו להפוך חלום למציאות.</h2>
+    <div id="BodyContent">
+        <div id="OurName">
+            <div class="container">
+                <div class="row">
+                    <svg class="col _1LGPcGiAwvNAySV0GUsZCr" width="330.36307673970236" height="50.48273559444645"
+                        viewBox="0 0 294.4836146106559 45">
+                        <path class="" d="M271.5836146106559,20.1H0V25.6H294.4836146106559V20.1Z" fill="#c5c6c7"></path>
+                        <use xlink:href="#__id619_0"></use>
+                    </svg>
+                    <h1 id="CompanyName" class="col">XDA</h1>
+                    <svg class="col _1LGPcGiAwvNAySV0GUsZCr" width="330.36307673970236" height="50.48273559444645"
+                        viewBox="0 0 294.4836146106559 45">
+                        <path class="" d="M271.5836146106559,20.1H0V25.6H294.4836146106559V20.1Z" fill="#c5c6c7"></path>
+                        <use xlink:href="#__id619_0"></use>
+                    </svg>
+
+                </div>
+            </div>
+            <h4 id="text">נעים להכיר</h4>
+        </div>
+        <div id="HomeContent">
+            היום כדי להשאיר את החותם הכי משמעותי ולקדם את העסק שלכם בצורה הטובה ביותר <br>אתם צריכים להיות כאן, בסביבה
+            טכנולוגית וחדשנית.
+            <br> אנחנו מאמינים ביצירתיות, בקו צעיר ומרענן שיוביל אתכם הכי גבוה שאפשר.
+            <br> יחד נבנה עבורכם אתר בהתאמה אישית ומדוייקת לצרכים שלכם, הכולל פתרונות מתקדמים ועיצוב חדשני.
+        </div>
+        <hr>
+        <div class="container">
+            <div class="row">
+                <h1 id="OurTeam" class="col">הדרך שלכם להצלחה</h1>
+            </div>
+        </div>
+        <div class="container round">
+            <div class="row">
+                <span class="icon-lightbulb"></span>
+                <a href="process.html"></a><div  class="rounddiv" class="col"><i class="fa fa-home icon"></i></div></a>
+                <a href="process.html"><div class="rounddiv" class="col"><i class="fa fa-globe icon"></i></div></a>
+                <a href="process.html"><div class="rounddiv" class="col"><i class="fa fa-envelope xl icon"></i></div></a>
+            </div>
+        </div>
+
+        <!-- <section style="background:rgba(0, 0, 0, 0.1)">
+            <div class="container" id="OurWorks">
+                <div class="row">
+                    <h3>מבין לקוחותינו</h3>
+                </div>
+                <div class="row">
+                    <div class="col-auto" id="PicEmployee1"><img src="Moshe.jfif"></div>
+                    <div class="col-auto" id="PicEmployee2"><img src="Moshe.jfif"></div>
+                    <div class="col-auto" id="PicEmployee3"><img src="Moshe.jfif"></div>
+                </div>
+            </div>
+    </div>
+    </section> -->
+
+    <footer>
+        <hr>
+        <div class="container">
+            <div class="row" style="justify-content: center">
+                <img class="col-auto" id="FooterLogo" src="logo2.png">
+            </div>
+            <div class="row" style="justify-content: center">
+                <a class="col-auto" id="SocialMediaLogo" href="www.twitter.com"><img src="twitter.png"></a>
+                <a class="col-auto" id="SocialMediaLogo" href="www.instagram.com"><img src="instagram.png"></a>
+                <a class="col-auto" id="SocialMediaLogo" href="www.facebook.com"><img src="facebook.png"></a>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
