@@ -8,8 +8,11 @@ import { NgStyle } from '@angular/common';
   styleUrls: ['./header.component.css']
 })
 export class HeaderComponent implements OnInit {
+  navBackground: string;
 
-  constructor() { }
+  constructor() { 
+    this.navBackground = 'transparent';
+  }
 
   ngOnInit() {
   }
@@ -19,7 +22,12 @@ export class HeaderComponent implements OnInit {
     
   @HostListener('window:scroll', ['$event']) 
     dotheJob(event) {
-      this.getcolor('white');
-      console.log('scrolled');
+      console.log('event', event.path[1].pageYOffset > 85);
+      if(event.path[1].pageYOffset > 85){
+        this.navBackground = '#c5c6c7';
+      }
+      else{
+        this.navBackground = 'transparent';
+      }
     }
 }
