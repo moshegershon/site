@@ -8,10 +8,10 @@ import { ContactComponent } from './components/contact/contact.component';
 
 const routes: Routes = [ 
   {path:'',component:HomeComponent, pathMatch: 'full'},
-  {path:'בית',component:HomeComponent},
-  {path:'אודות',component:AboutComponent},
-  {path:'תהליך',component:ProcessComponent},
-  {path:'צור קשר',component:ContactComponent}
+  {path:'home',component:HomeComponent},
+  {path:'about',component:AboutComponent},
+  {path:'process',component:ProcessComponent},
+  {path:'contact',component:ContactComponent}
 ];
 
 @NgModule({

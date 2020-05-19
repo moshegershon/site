@@ -28,6 +28,8 @@
         <br> יחד נבנה עבורכם אתר בהתאמה אישית ומדוייקת לצרכים שלכם, הכולל פתרונות מתקדמים ועיצוב חדשני.
     </div>
     <hr>
+
+    
     <div class="container">
         <div class="row">
             <h1 id="OurTeam" class="col">הדרך שלכם להצלחה</h1>
@@ -35,15 +37,19 @@
     </div>
     <div class="container round">
         <div class="row">
-            <a href="process.html">
-            <div id="rounddiv" class="col"><i class="fa fa-envelope xl icon"></i></div>
-        </a>
-            <a href="process.html">
-                <div id="rounddiv" class="col"><i class="fa fa-globe icon"></i></div>
-            </a>
-            <a href="process.html">
-                <div id="rounddiv" class="col"><i class="fa fa-home icon"></i> </div>
-            </a>
+            <button id="rounddiv" (click)="contact()" class="col"><i class="fa fa-envelope xl icon"></i>
+                צור קשר
+            </button>
+            
+            
+            <button id="rounddiv" (click)="process()" class="col"><i class="fa fa-envelope xl icon"></i>
+                תהליך הבנייה 
+            </button>
+            
+            
+            <button id="rounddiv" (click)="product()" class="col"><i class="fa fa-envelope xl icon"></i>
+                תוצר גמור 
+            </button>
         </div>
     </div>
    
