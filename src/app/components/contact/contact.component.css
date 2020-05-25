@@ -1,3 +1,8 @@
+html, body {
+    height: 100%;
+    margin: 150px;
+    direction: rtl;
+  }
 #contact{
     background-color:#f1f1f1;
     font-family: 'Roboto', sans-serif;
@@ -24,4 +29,11 @@
     #contact iframe {
         margin-bottom: 15px;
     }   
+}
+#CallText{
+direction: rtl;
+text-align: center;
+}
+#SendButton{
+margin: 0;
 }

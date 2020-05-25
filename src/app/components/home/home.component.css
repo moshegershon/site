@@ -127,7 +127,7 @@ body{
     margin-left: 115px; 
     margin-top: 50px; 
     margin-bottom: 20px;
-    cursor: pointer;
+    /* cursor: pointer; */
     color: aliceblue;
 }
 #rounddiv:hover{

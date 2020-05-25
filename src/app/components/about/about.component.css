@@ -12,6 +12,7 @@
     color: gray;
     font-size: 20px;
     text-align: center;
+    direction: rtl;
 }
 #AboutLogo{
     text-align: center;

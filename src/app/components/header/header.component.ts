@@ -9,9 +9,11 @@ import { NgStyle } from '@angular/common';
 })
 export class HeaderComponent implements OnInit {
   navBackground: string;
+  
 
   constructor() { 
     this.navBackground = 'transparent';
+    
   }
 
   ngOnInit() {
@@ -24,7 +26,8 @@ export class HeaderComponent implements OnInit {
     dotheJob(event) {
       console.log('event', event.path[1].pageYOffset > 85);
       if(event.path[1].pageYOffset > 85){
-        this.navBackground = '#c5c6c7';
+        this.navBackground = '#ffff';
+       
       }
       else{
         this.navBackground = 'transparent';
